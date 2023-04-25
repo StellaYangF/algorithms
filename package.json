@@ -1,0 +1,24 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Algorithms一个Web前端学习文档。旨在记录算法相关知识。",
+  "main": "",
+  "scripts": {
+    "dev": "node scripts/dev.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StellaYangF/algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StellaYangF/algorithms/issues"
+  },
+  "homepage": "https://github.com/StellaYangF/algorithms#readme",
+  "devDependencies": {
+    "esbuild": "^0.17.18",
+    "typescript": "^5.0.4"
+  }
+}

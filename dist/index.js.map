@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/addTwoNums.ts"],
+  "sourcesContent": ["// \u8F93\u5165\uFF1Anums = [2,7,11,15], target = 9\n// \u8F93\u51FA\uFF1A[0,1]\n// \u89E3\u91CA\uFF1A\u56E0\u4E3A nums[0] + nums[1] == 9 \uFF0C\u8FD4\u56DE [0, 1] \u3002\n\nexport const addTwoNums = (nums: Array<number>, target: number): number[] => {\n  const result = []\n  for (let i = 0; i < nums.length; i++) {\n\n  }\n\n  return result\n}\n\naddTwoNums([2, 7, 11, 15], 9)"],
+  "mappings": ";AAIO,IAAM,aAAa,CAAC,MAAqB,WAA6B;AAC3E,QAAM,SAAS,CAAC;AAChB,WAAS,IAAI,GAAG,IAAI,KAAK,QAAQ,KAAK;AAAA,EAEtC;AAEA,SAAO;AACT;AAEA,WAAW,CAAC,GAAG,GAAG,IAAI,EAAE,GAAG,CAAC;",
+  "names": []
+}

@@ -1,5 +1,7 @@
 {
   "cSpell.words": [
-    "leetcode"
-  ]
+    "leetcode",
+    "outfile"
+  ],
+  "liveServer.settings.port": 5501
 }
