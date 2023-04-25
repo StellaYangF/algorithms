@@ -10,7 +10,7 @@ esbuild.context({
 	outfile: resolve(__dirname, `../dist/index.js`),
 	bundle: true, // bundle depended files
 	sourcemap: true,
-	format: "esm",
+	format: "iife",
 	platform: 'browser'
 }).then(ctx => {
 	console.log('~~~watching~~~', ctx)

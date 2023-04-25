@@ -1,1 +1,1 @@
-export * from "./addTwoNums"
+export * from "./twoSum"

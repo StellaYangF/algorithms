@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "sources": ["../src/addTwoNums.ts"],
-  "sourcesContent": ["// \u8F93\u5165\uFF1Anums = [2,7,11,15], target = 9\n// \u8F93\u51FA\uFF1A[0,1]\n// \u89E3\u91CA\uFF1A\u56E0\u4E3A nums[0] + nums[1] == 9 \uFF0C\u8FD4\u56DE [0, 1] \u3002\n\nexport const addTwoNums = (nums: Array<number>, target: number): number[] => {\n  const result = []\n  for (let i = 0; i < nums.length; i++) {\n\n  }\n\n  return result\n}\n\naddTwoNums([2, 7, 11, 15], 9)"],
-  "mappings": ";AAIO,IAAM,aAAa,CAAC,MAAqB,WAA6B;AAC3E,QAAM,SAAS,CAAC;AAChB,WAAS,IAAI,GAAG,IAAI,KAAK,QAAQ,KAAK;AAAA,EAEtC;AAEA,SAAO;AACT;AAEA,WAAW,CAAC,GAAG,GAAG,IAAI,EAAE,GAAG,CAAC;",
+  "sources": ["../src/twoSum.ts"],
+  "sourcesContent": ["// \u7ED9\u5B9A\u4E00\u4E2A\u6574\u6570\u6570\u7EC4 nums \u548C\u4E00\u4E2A\u6574\u6570\u76EE\u6807\u503C target\uFF0C\u8BF7\u4F60\u5728\u8BE5\u6570\u7EC4\u4E2D\u627E\u51FA \u548C\u4E3A\u76EE\u6807\u503C target  \u7684\u90A3 \u4E24\u4E2A \u6574\u6570\uFF0C\u5E76\u8FD4\u56DE\u5B83\u4EEC\u7684\u6570\u7EC4\u4E0B\u6807\u3002\n\n// \u4F60\u53EF\u4EE5\u5047\u8BBE\u6BCF\u79CD\u8F93\u5165\u53EA\u4F1A\u5BF9\u5E94\u4E00\u4E2A\u7B54\u6848\u3002\u4F46\u662F\uFF0C\u6570\u7EC4\u4E2D\u540C\u4E00\u4E2A\u5143\u7D20\u5728\u7B54\u6848\u91CC\u4E0D\u80FD\u91CD\u590D\u51FA\u73B0\u3002\n\n// \u4F60\u53EF\u4EE5\u6309\u4EFB\u610F\u987A\u5E8F\u8FD4\u56DE\u7B54\u6848\u3002\n// \u8F93\u5165\uFF1Anums = [2,7,11,15], target = 9\n// \u8F93\u51FA\uFF1A[0,1]\n// \u89E3\u91CA\uFF1A\u56E0\u4E3A nums[0] + nums[1] == 9 \uFF0C\u8FD4\u56DE [0, 1] \u3002\n\nexport function twoSum(nums: number[], target: number): number[] {\n  for (let i = 0; i < nums.length; i++) {\n    const a = nums[i]\n    const diff = target - a\n    if (diff !== undefined) {\n      return [a, diff]\n    }\n  }\n\n};\n\nconsole.log(twoSum([2, 7, 11, 15], 9))"],
+  "mappings": ";;AASO,WAAS,OAAO,MAAgB,QAA0B;AAC/D,aAAS,IAAI,GAAG,IAAI,KAAK,QAAQ,KAAK;AACpC,YAAM,IAAI,KAAK,CAAC;AAChB,YAAM,OAAO,SAAS;AACtB,UAAI,SAAS,QAAW;AACtB,eAAO,CAAC,GAAG,IAAI;AAAA,MACjB;AAAA,IACF;AAAA,EAEF;AAEA,UAAQ,IAAI,OAAO,CAAC,GAAG,GAAG,IAAI,EAAE,GAAG,CAAC,CAAC;",
   "names": []
 }
