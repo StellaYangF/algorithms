@@ -26,4 +26,5 @@ Algorithms一个Web前端学习文档。旨在记录算法相关知识。
 - 贪心算法
 - 动态规划基础模型
 ## 每日一题
-- 两数之和 [`twoSum`](https://github.com/StellaYangF/algorithms/blob/main/src/twoSum.ts)
+- 两数之和 LC.1[`twoSum`](https://github.com/StellaYangF/algorithms/blob/main/src/twoSum.ts)
+- 环形链表判断LC.141[`hasCycle`](https://github.com/StellaYangF/algorithms/blob/main/src/hasCycle.ts)
