@@ -1,5 +1,8 @@
 Algorithms一个Web前端学习文档。旨在记录算法相关知识。
 
+## 数据结构与算法之美
+
+- [感悟](https://github.com/StellaYangF/algorithms/blob/main/docs/3.reading.md)
 
 ## 特性
 
