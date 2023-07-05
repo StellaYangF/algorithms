@@ -1,2 +1,2 @@
-export * from "./twoSum"
-export * from './hasCycle'
+export * from "./1.twoSum"
+export * from './2.hasCycle'
