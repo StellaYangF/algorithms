@@ -12,6 +12,7 @@ Algorithms一个Web前端学习文档。旨在记录算法相关知识。
 - 通往编程高峰
 
 ## 算法版图
+- [数组](https://github.com/StellaYangF/algorithms/blob/main/docs/4.array.md)
 - 数组和字符串
 - 哈希表
 - 排序算法
