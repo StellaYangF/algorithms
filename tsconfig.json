@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "dist",
     "sourceMap": true,
-    "target": "ES2016",
+    "target": "ES2019",
     "newLine": "lf",
     "useDefineForClassFields": false,
     "module": "ESNext",
