@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "noUnusedLocals": true,
     "sourceMap": true,
     "target": "ES2019",
     "newLine": "lf",
@@ -21,6 +21,5 @@
       "puppeteer",
       "node"
     ],
-    "baseUrl": "."
   }
 }

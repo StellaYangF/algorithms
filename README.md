@@ -12,6 +12,7 @@ Algorithms一个Web前端学习文档。旨在记录算法相关知识。
 - 通往编程高峰
 
 ## 算法版图
+
 - [数组](https://github.com/StellaYangF/algorithms/blob/main/docs/4.array.md)
 - 数组和字符串
 - 哈希表
@@ -29,7 +30,10 @@ Algorithms一个Web前端学习文档。旨在记录算法相关知识。
 - 递归和分治
 - 贪心算法
 - 动态规划基础模型
+
 ## 每日一题
+
 - 两数之和 LC.1[`twoSum`](https://github.com/StellaYangF/algorithms/blob/main/docs/0.twoSum.md)
-- 环形链表判断LC.141[`hasCycle`](https://github.com/StellaYangF/algorithms/blob/main/docs/1.hasCycle.md)
+- 环形链表判断 LC.141[`hasCycle`](https://github.com/StellaYangF/algorithms/blob/main/docs/1.hasCycle.md)
+- 链表反转 LC.206[`reverseList`](https://github.com/StellaYangF/algorithms/blob/main/docs/.ts)
 - 滑动窗口[xxx](https://github.com/StellaYangF/algorithms/blob/main/docs/1.hasCycle.ts)
