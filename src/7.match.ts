@@ -1,0 +1,30 @@
+/**
+ * 栈在括号匹配中的应用
+ * [{()}([])] 合法
+ * {[}()] 不合法
+ */
+
+
+const isMatch = arr => {
+  // 1. 基数个时，不合法
+  const LEFT = '([{'
+  const left = []
+
+  for (let i = 0; i < arr.length; i++) {
+    const k = arr[i]
+    if (LEFT.includes(k)) {
+      left.push(k)
+    } else {
+      const last = left.pop()
+      if (last !== k) {
+        return false
+      }
+    }
+  }
+
+  if (left.length) {
+    return false
+  } else {
+    return true
+  }
+}
