@@ -35,5 +35,5 @@ Algorithms一个Web前端学习文档。旨在记录算法相关知识。
 
 - 两数之和 LC.1[`twoSum`](https://github.com/StellaYangF/algorithms/blob/main/docs/0.twoSum.md)
 - 环形链表判断 LC.141[`hasCycle`](https://github.com/StellaYangF/algorithms/blob/main/docs/1.hasCycle.md)
-- 链表反转 LC.206[`reverseList`](https://github.com/StellaYangF/algorithms/blob/main/docs/.ts)
+- 链表反转 LC.206[`reverseList`](https://github.com/StellaYangF/algorithms/blob/main/docs/6.reverseList.md)
 - 滑动窗口[xxx](https://github.com/StellaYangF/algorithms/blob/main/docs/1.hasCycle.ts)
